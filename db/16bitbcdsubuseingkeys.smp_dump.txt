@@ -1,0 +1,7 @@
+
+State Machine - |bcd_subtractor_fsm|state
+Name state.SHOW_R state.SHOW_B state.SHOW_A state.IDLE 
+state.IDLE 0 0 0 0 
+state.SHOW_A 0 0 1 1 
+state.SHOW_B 0 1 0 1 
+state.SHOW_R 1 0 0 1 
